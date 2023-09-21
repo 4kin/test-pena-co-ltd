@@ -41,7 +41,7 @@ public class EncodeDecode {
         }
     }
 
-    public void doEncode(String fileName) throws GeneralSecurityException, NoSuchPaddingException, NoSuchAlgorithmException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
+    public void doEncode(String fileName) throws GeneralSecurityException {
 
         byte[] fileToEncode = readFile(fileName);
 
